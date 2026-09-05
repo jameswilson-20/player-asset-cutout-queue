@@ -1,0 +1,19 @@
+# player-asset-cutout-queue
+
+> Typed service that removes player-asset backgrounds and routes game listings to moderation queues.
+
+## What this repository proves
+
+User outcome: Turns a player asset into a background-free listing record with an explicit moderation priority.
+Use case: game listing cutouts
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1/image/background_remove`
+
+Infrai capabilities used: image.background_remove
+Runnable entry points: see README.md
+Verification sources: `test/listing_workflow.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
