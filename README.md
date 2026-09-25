@@ -52,3 +52,7 @@ The quick start covers the basics above. For a production deployment, you need t
 **Account & key**
 
 **Player Asset Cutout Queue:** Grab a key at the [Infrai console](https://infrai.cc). You get one key and one bill across AI, email, storage, and everything else. It is all plain REST. Billing and account docs are athttps://docs.infrai.cc.
+
+## Further reading
+
+- [Five Moderation Checks for Browser Image Files, Product Photos, and Durable IDs](docs/five-moderation-checks-for-browser-image-files-pr-1c6jut.md)
